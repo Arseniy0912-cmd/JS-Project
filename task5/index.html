@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JS-Start. 3 задача</title>
+</head>
+
+<body>
+    <form action="#">
+        <label>
+            Текст
+            <input id="input" type="text" placeholder="Введите текст" oninput="document.querySelector('#duplicateField').textContent = this.value;">
+        </label>
+
+        <button type="submit">
+            Вывести текст в консоль и удалить из формы
+        </button>
+    </form>
+
+    <hr>
+
+    <p>Введенный текст:</p>
+
+    <p id="duplicateField"></p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
