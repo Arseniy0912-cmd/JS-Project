@@ -12,3 +12,41 @@ footer a {
 footer a:hover {
   font-size: 27px;
 }
+
+ul li a {
+  color: orange;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+
+ul li:hover {
+  font-size: 27px;
+}
+
+ul li {
+  margin-top: 7px;
+}
+
+p {
+  font-weight: bold;
+}
+
+#silka {
+  color: orange;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+
+#silka:hover {
+  font-size: 27px;
+}
+
+button {
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: orange;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+}
